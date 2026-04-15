@@ -2,14 +2,12 @@ import MyInput from './Input.vue'
 
 import type { Meta, StoryObj } from '@storybook/vue3-vite';
 
-import { fn } from 'storybook/test';
-
 const meta = {
   /* 👇 The title prop is optional.
    * See https://storybook.js.org/docs/configure/#configure-story-loading
    * to learn how to generate automatic titles
    */
-  title: 'Example/Header',
+  title: 'Example/Input',
   component: MyInput,
   render: (args: any) => ({
     components: { MyInput },
